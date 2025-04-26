@@ -1,0 +1,72 @@
+
+Tablas Insert 2
+-expedientes LA FECHA DE ALTA NO SE INSERTA
+-exped_servi
+-expedientes_especialidad (Llevas una relacion indirecta con exped_servi)
+
+-NO ES TABLA, ES OPCIONAL validacion medico
+
+Tablas Insert 3
+-tratamientos
+
+
+
+
+¿Eres un nuevo paciente?
+    SI/NO
+si
+    1 despliega servicios.
+    2 selecciona servicio.
+        2.1 valida si es correcto.
+    si
+        3 ingresa datos del paciente.
+            3.1 una vez ingresados los datos de paciente se valida si son correctos, de no ser correctos te los pide de nuevo.
+        4 generar expediente.
+            4.1 se insertan valores para el metodo insertarPaciente esto comentalo. 
+        5 tratamiento.
+            5.1 se pregunta cuantos medicamentos va ocupar.
+            5.2 captura cuantos de tipo entero. 
+            5.3 se valida si son correctos los datos.
+            si
+                6 se despiega lista de medicamentos.
+                7 se selecciona la cantidad de medicamentos de la lista en int, (dependiendo de cuantos ingreso anteriormente que ocpaba).
+                    7.1 se validan que los medicamentos ingresados sean correctos. 
+                        7.2comenta esto: se genera un codigo que incrementa apartir de TR011
+                si
+                  comenta esto: se pasan los paramentros al metodo MetodoGenTratamiento.
+                no
+            no
+            8 se regresa al 5 para pedir que ingrese el medicamento
+            no
+        selecciona servicio
+    --- ingresa el numero de paciente existente ---a
+        validar si es correcto
+
+si
+    --generar expediente---
+    --pasarle los parametros y donde esta el paciente asignarle el que ya tiene a la variable aaqui ---a
+
+    --una vez generado expediente--
+    se valida si es correcto los datos de expediente
+si
+    se pasa a tratamiento
+    se pregunta cuantos medicamentos va ocupar 
+    se valida si son correctos los datos
+    se despiega lista de medicamentos
+    se seleccionan
+   
+    se validan que sean correctos si no que retorne y los pida de nuevo
+    y ya al final despliega toda la info y corrobora que sean correctos si no que los edite o pida de nuevo todo 
+
+
+
+
+
+
+
+ validar datos
+ expediente
+ usuario existente
+ updates
+
+ 
