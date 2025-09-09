@@ -1,6 +1,6 @@
 # Proyecto de Hospitalizaciones - La Esperanza
 
-Este proyecto, realizado en conjunto con [Nahataen](https://github.com/nahataen), forma parte del sistema de gestión hospitalaria "La Esperanza". Su objetivo es permitir la administración de hospitalizaciones de pacientes, control de camas disponibles, médicos asignados y otros recursos, mediante una interfaz de línea de comandos (CLI) utilizando Java y MySQL.
+Este proyecto, realizado en conjunto con [Julio](https://github.com/lladux), forma parte del sistema de gestión hospitalaria "La Esperanza". Su objetivo es permitir la administración de hospitalizaciones de pacientes, control de camas disponibles, médicos asignados y otros recursos, mediante una interfaz de línea de comandos (CLI) utilizando Java y MySQL.
 
 ## Tecnologías utilizadas
 
